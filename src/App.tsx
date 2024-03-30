@@ -1,10 +1,15 @@
-function App() {
-  return (
-    <>
-      <h1>Hello, AWS Summit London 2024 👋</h1>
-      <h2>Here is my Todo app...</h2>
-    </>
-  );
-}
+import './App.css'
 
-export default (App);
+import React from 'react';
+import TaskList from './TaskList';
+
+const App: React.FC = () => {
+  return (
+    <div className="container">
+      <h1>AWS Summit London To-do App</h1>
+      <TaskList />
+    </div>
+  );
+};
+
+export default App;
