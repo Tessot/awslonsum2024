@@ -25,7 +25,7 @@ const TaskInput: React.FC<TaskInputProps> = ({ addTask }) => {
         type="text"
         value={taskText}
         onChange={handleInputChange}
-        placeholder="What do you have planned?"
+        placeholder="What do you need to do?"
       />
       <button onClick={handleAddTask}>Add task</button>
     </div>
