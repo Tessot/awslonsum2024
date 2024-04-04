@@ -35,6 +35,7 @@ const TaskList: React.FC = () => {
 
   return (
     <div>
+      <h1>AWS Summit London To-do App</h1>
       <TaskInput addTask={addTask} />
       <ul>
         {tasks.map((task) => (
