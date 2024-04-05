@@ -1,7 +1,6 @@
 import './App.css'
 
 import React from 'react';
-import TaskList from './TaskList';
 import TodoList from './components/TodoList';
 
 import { withAuthenticator } from "@aws-amplify/ui-react";
